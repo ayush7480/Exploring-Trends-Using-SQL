@@ -24,9 +24,8 @@ FROM car_info
 WHERE transmission = 'Manual' AND owner = 'First Owner'
 GROUP BY fuel;
 
-### 2️⃣ Top 3 Car Models with Highest Average Mileage 🚘  
-Identify car models with more than 5 seats and the highest average mileage.  
-
+### 2️⃣ **Top 3 Car Models with Highest Average Mileage** 🚘  
+Identify car models with more than 5 seats and the highest average mileage.
 ```sql
 SELECT Name, AVG(mileage) AS avg_mileage
 FROM car_info
