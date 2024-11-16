@@ -1,6 +1,3 @@
-Here's the **README.md** formatted with appropriate headings, emojis, and GitHub-friendly styling:  
-
-```markdown
 # 🚗 Exploring Trends Using SQL 📊
 
 ## 📖 Overview  
@@ -31,8 +28,6 @@ SELECT fuel, AVG(selling_price) AS avg_selling_price
 FROM car_info
 WHERE transmission = 'Manual' AND owner = 'First Owner'
 GROUP BY fuel;
-```
-
 ---
 
 ### 2️⃣ **Top 3 Car Models with Highest Average Mileage**  
